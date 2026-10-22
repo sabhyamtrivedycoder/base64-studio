@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Base64 Studio — Text & File Encoder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><span>📦</span><h1>Base64 Studio</h1></div>
+    <a href="https://sabhyamtrivedycoder.github.io/portfolio/" target="_blank" class="nav-portfolio">Portfolio ↗</a>
+  </header>
+  <main class="main">
+    <div class="controls">
+      <button id="encodeBtn" class="btn primary">Encode ➔ Base64</button>
+      <button id="decodeBtn" class="btn secondary">Decode ➔ Text</button>
+      <button id="dataUriBtn" class="btn secondary">Format as Data URI</button>
+    </div>
+    <div class="grid">
+      <div class="box">
+        <label>Input (Raw Text)</label>
+        <textarea id="rawInput" placeholder="Type plain text..."></textarea>
+      </div>
+      <div class="box">
+        <label>Output (Base64)</label>
+        <textarea id="b64Output" placeholder="Base64 output..."></textarea>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Engineered by <a href="https://github.com/sabhyamtrivedycoder" target="_blank">Sabhyam Trivedy</a> • MIT License</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
